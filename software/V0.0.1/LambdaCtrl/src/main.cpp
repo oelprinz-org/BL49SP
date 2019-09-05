@@ -5,7 +5,7 @@
  *	
  *	It work's with the NanoLambda Board from Ruzki.
  *
- *	Hardware (c) Ruzki --> Georg Geraskin
+ *	Hardware open source BL49SP
  *	Software (c) Alfagta --> Mario Schoebinger
  *
  *	LambdaCtrl is licensed under a
