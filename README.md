@@ -1,6 +1,6 @@
 # BL49SP
 Wideband Lambda Controller with CJ125<br/>
-(untested at the moment / build on your own risk)<br/>
+(totally untested at the moment / build on your own risk)<br/>
 new hardware revision is coming soon
 
 <p align="center">
