@@ -51,9 +51,9 @@ static const int16_t NbLambda[CJ_LSU_ARRAY_SIZE] = {};
 #define UVREF_ANALOG_INPUT_PIN                A1  /* Analog input for reference voltage supply.*/
 #define UR_ANALOG_INPUT_PIN                   A6  /* Analog input for temperature.*/
 #define UA_ANALOG_INPUT_PIN                   A7  /* Analog input for lambda.*/
-#define LAMBDA_PWM_OUTPUT_PIN                 2   /* Analog output linear Lambda voltage */
+#define LAMBDA_PWM_OUTPUT_PIN                 3   /* Analog output linear Lambda voltage */
 #define EN_INPUT_PIN                          16  /* Enable pin, low when engine running */
-#define SP1_INPUT_PIN                         3   /* Spare input 1 */
+#define SP1_INPUT_PIN                         2   /* Spare input 1 */
 #define SP2_INPUT_PIN                         4   /* Spare input 2 */
 
 /* Define parameters */
