@@ -9,7 +9,7 @@
 
 #include "LambdaCtrl.h"
 
-#define CJ_LSU_ARRAY_SIZE	24	// Number of values within the array
+#define CJ_LSU_ARRAY_SIZE	24		// Number of values within the array
 
 /* Constant tables to interpolate lambda from given pump current 
  * 
@@ -77,11 +77,11 @@ uint16_t ComCj(uint16_t data)
 /* Send DAC values to MCP4726 */
 void ComDac(uint8_t addr, uint16_t data)
 {
-	Wire.beginTransmission(addr);			// Start transmission
-	Wire.write(MCP4725_CMD_WRITEDAC);	    // Command write dac without eeprom
-	Wire.write(data / 16);					// Upper data bits          (D11.D10.D9.D8.D7.D6.D5.D4)
-	Wire.write((data % 16) << 4);			// Lower data bits          (D3.D2.D1.D0.x.x.x.x)	
-	Wire.endTransmission();					// End transmission
+	Wire.beginTransmission(addr);		// Start transmission
+	Wire.write(MCP4725_CMD_WRITEDAC);	// Command write dac without eeprom
+	Wire.write(data / 16);			// Upper data bits          (D11.D10.D9.D8.D7.D6.D5.D4)
+	Wire.write((data % 16) << 4);		// Lower data bits          (D3.D2.D1.D0.x.x.x.x)	
+	Wire.endTransmission();			// End transmission
 }	
 
 /* Check if supply voltage is in allowed range */
@@ -195,9 +195,9 @@ int16_t Interpolate(int16_t Ip)
 	return (int16_t)y;
 }
 
-/* --- Operationg Mode --- */
+/* --- Operation Mode --- */
 
-/* This function set's the variables 
+/* This function sets the variables 
  * to start values 
  */
 void Preset(void)
@@ -238,7 +238,7 @@ void Preset(void)
 }
 
 /* This function read the cj125 after startup.
- * CJ125 answear must be okay several times to go futher
+ * CJ125 answer must be okay several times to go futher
  */
 void Start(void)
 {	
@@ -349,7 +349,7 @@ void Idle(void)
 
 /* This functions limits the heat intensity 
  * according to the datasheet to 1.5V
- * for arround 5 seconds
+ * for around 5 seconds
  */
 void Condensate(void)
 {
@@ -502,20 +502,20 @@ void Running(void)
 	{
 		Abl.CjAnsw = ComCj(CJ125_DIAG_REG_REQUEST);	// Read cj diagnostic information
 		
-		if ((Abl.CjAnsw & CJ125_DIAG_REG_STATUS_OK) != CJ125_DIAG_REG_STATUS_OK)	// If not okay count up
+		if ((Abl.CjAnsw & CJ125_DIAG_REG_STATUS_OK) != CJ125_DIAG_REG_STATUS_OK) // If not okay count up
 		{
 			Abl.CjErrCnt++;
-			if (Abl.CjErrCnt > CJ_ERR_CNT)	// Error cnt to high?
+			if (Abl.CjErrCnt > CJ_ERR_CNT)		// Error cnt to high?
 			{
-				Abl.CjState = cjERROR;	// Change cjState to error
+				Abl.CjState = cjERROR;		// Change cjState to error
 				Abl.Mode = ERROR;
-				Abl.CjErrCnt = 0;	// Reset error counter
+				Abl.CjErrCnt = 0;		// Reset error counter
 			}
 		}
 		else
-		{
-			Abl.CjState = cjNORMALV8;	// Set normal mode 
-			Abl.CjErrCnt = 0;	// Reset error counter
+		{	
+			Abl.CjState = cjNORMALV8;		// Set normal mode 
+			Abl.CjErrCnt = 0;			// Reset error counter
 		}		
 		
 		if (Abl.Mode != ERROR)
