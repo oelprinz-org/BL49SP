@@ -3,7 +3,7 @@
  *	This programm is designed to build a standalone wideband lambda controller.
  *	It's based on BOSCH CJ125 which is the interface between the lambda probe and the uC.
  *	
- *	Hardware open source BL49SP
+ *	Hardware open source BL49sp
  *	Software (c) Alfagta --> Mario Schoebinger
  *
  *	LambdaCtrl is licensed under a
