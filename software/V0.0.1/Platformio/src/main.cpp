@@ -94,7 +94,7 @@ void loop()
 		Inputs(&In);
 		
 		/* Reference voltage */
-		Abl.RefVoltage = (int16_t)((uint32_t)In.URef * 5000UL / 1023UL);	//This should be exactly 1.225V so we can calculate the adc offset from this
+		Abl.RefVoltage = (int16_t)((uint32_t)In.URef * 5000UL / 1023UL);  //This should be exactly 1.225V so we can calculate the adc offset from this
 		/* Calculate the voltage offset */
 		Abl.VoltageOffset = 1225 - Abl.RefVoltage;
 		/* Calculate battery voltage */
