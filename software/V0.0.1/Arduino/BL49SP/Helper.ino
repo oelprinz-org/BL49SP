@@ -2,14 +2,14 @@
  *	
  *	In this file we have all the functions
  *
- *	Mario Schöbinger
+ *	Mario SchÃ¶binger
  *	2018/11
  *
  **/
 
 #include "LambdaCtrl.h"
 
-#define CJ_LSU_ARRAY_SIZE	24	// Number of values within the array
+#define CJ_LSU_ARRAY_SIZE	24		// Number of values within the array
 
 /* Constant tables to interpolate lambda from given pump current 
  * 
@@ -74,11 +74,11 @@ uint16_t ComCj(uint16_t data)
 /* Send DAC values to MCP4726 */
 void ComDac(uint8_t addr, uint16_t data)
 {
-	Wire.beginTransmission(addr);			// Start transmission
+	Wire.beginTransmission(addr);		// Start transmission
 	Wire.write(MCP4725_CMD_WRITEDAC);	// Command write dac without eeprom
-	Wire.write(data / 16);						// Upper data bits          (D11.D10.D9.D8.D7.D6.D5.D4)
-	Wire.write((data % 16) << 4);			// Lower data bits          (D3.D2.D1.D0.x.x.x.x)	
-	Wire.endTransmission();						// End transmission
+	Wire.write(data / 16);			// Upper data bits          (D11.D10.D9.D8.D7.D6.D5.D4)
+	Wire.write((data % 16) << 4);		// Lower data bits          (D3.D2.D1.D0.x.x.x.x)	
+	Wire.endTransmission();			// End transmission
 }	
 
 /* Check if supply voltage is in allowed range */
