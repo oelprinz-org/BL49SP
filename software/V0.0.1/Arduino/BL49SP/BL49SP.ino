@@ -89,7 +89,7 @@ void loop()
 	/* Calculate the voltage offset */
 	Abl.VoltageOffset = 1225 - Abl.RefVoltage;
 	/* Calculate battery voltage */
-	Abl.SupplyVoltage = Abl.VoltageOffset + (int16_t)((uint32_t)In.USup * 24500UL / 1023UL);
+	Abl.SupplyVoltage = Abl.VoltageOffset + (int16_t)((uint32_t)In.USup * 25230UL / 1023UL);
 	/* Sanity check for battery voltage */
 	if (CheckUBatt() == false)
 	{		
