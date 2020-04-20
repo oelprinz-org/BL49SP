@@ -206,7 +206,6 @@ void Preset(void)
 	
 	Abl.Lambda = 100;
 	Out.Dac1 = VoltageTo12BitDac(LambdaToVoltage(100));
-	Out.Dac2 = Out.Dac1;
 	Out.Wbl = VoltageTo8BitDac(LambdaToVoltage(100));
 	Out.Heater = 0;
 	Out.Led2 = LOW;
@@ -236,8 +235,8 @@ void Preset(void)
 	Abl.LastTimeoutTick = Abl.Tick;
 }
 
-/* This function read the cj125 after startup.
- * CJ125 answer must be okay several times to go futher
+/* This function reads out the cj125 after startup.
+ * CJ125 answer must be okay several times to go further
  */
 void Start(void)
 {	
@@ -262,7 +261,7 @@ void Start(void)
 }	
 
 /* This function turns the CJ125 into calibration mode.
- * Then it sampels the UA, UR values several times and build
+ * Then it samples the UA, UR values several times and build
  * the average
  */
 void Calibrate(void)
@@ -330,14 +329,14 @@ void Idle(void)
 		ledtick = Abl.Tick;
 	}
 	
-	/* Toggle heater led  to show we idle */
+	/* Toggle heater led  to show idle state*/
 	if ((Abl.Tick - ledtick) >= 250)
 	{
 		Out.Led2 ^= 1;
 		ledtick = Abl.Tick;
 	}
 	
-	/* Check if we can go to heater condensate (Enable pin low) */
+	/* Check if we can go to heater condensation mode (Enable pin low) */
 	if (In.EN == LOW)
 	{
 		Abl.Mode = CONDENSATE;
@@ -356,14 +355,14 @@ void Condensate(void)
 	
 	Abl.Mode = CONDENSATE;
 	
-	/* Set heater state to condensate */
+	/* Set heater state to condensation */
 	if (Abl.HeatState != CONDENSATE)
 	{
 		Abl.HeatState = CONDENSATE;
 		Abl.LastHeatTick = ledtick = Abl.Tick;
 	}
 	
-	/* Calculate the required pwm for heater condensate */
+	/* Calculate the required pwm for heater condensation */
 	Out.Heater = (uint8_t)(PROBE_CONDENSATE_VOLT * 255UL / (uint32_t)Abl.SupplyVoltage);
 	
 	/* Sanity check */
@@ -372,14 +371,14 @@ void Condensate(void)
 		Out.Heater = PROBE_CONDENSATE_LIMIT;
 	}
 	
-	/* Check if condensate period expired, if so go to preheat */
+	/* Check if condensate period expired, if so go to preheat state*/
 	if ((Abl.Tick - Abl.LastHeatTick) >= PROBE_CONDENSATE_PERIOD)
 	{
 		Abl.Mode = PREHEAT;
 		Abl.LastTimeoutTick = Abl.Tick;
 	}
 	
-	/* Toggle heater led fast to show we start condensate */
+	/* Toggle heater led fast for signalling condensation state */
 	if ((Abl.Tick - ledtick) >= 100)
 	{
 		Out.Led2 ^= 1;
@@ -403,7 +402,7 @@ void Preheat(void)
 		Abl.LastHeatTick = Abl.Tick;
 		Abl.StartHeatTick = Abl.Tick;
 		
-		/* Calculate the starting pulse with value 
+		/* 	Calculate the starting pulse with value 
 		 *	255 is max pwm value, so 255 == Supply voltage
 		 *	We start preheat at 8 Volt.
 		 *	start = 8 * 255 / Supply
@@ -424,7 +423,7 @@ void Preheat(void)
 		Out.Heater = start;
 	}	
 	
-	/* Every second one step */
+	/* one step every second */
 	if ((Abl.Tick - Abl.LastHeatTick) >= PROBE_PREHEAT_PERIOD)
 	{
 		/* Toggle heater LED */
@@ -551,7 +550,6 @@ void Error(void)
 	/* Reset values */
 	Abl.Lambda = 100;
 	Out.Dac1 = VoltageTo12BitDac(LambdaToVoltage(100));
-	Out.Dac2 = Out.Dac1;
 	Out.Wbl = VoltageTo8BitDac(LambdaToVoltage(100));
 	Out.Heater = 0;
 	
