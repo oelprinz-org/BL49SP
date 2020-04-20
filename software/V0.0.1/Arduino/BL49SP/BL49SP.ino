@@ -72,7 +72,7 @@ void setup()
 	/* Serial */
 	Serial.begin(115200);
 	
-	/* Wait a little bit, CJ125 needs also time to start */
+	/* Wait a little bit, CJ125 needs some time for start up*/
 	delay(250);
 }
 
