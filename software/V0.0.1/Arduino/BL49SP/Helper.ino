@@ -203,7 +203,6 @@ void Preset(void)
 	
 	Abl.Lambda = 100;
 	Out.Dac1 = VoltageTo12BitDac(LambdaToVoltage(100));
-	Out.Dac2 = Out.Dac1;
 	Out.Wbl = VoltageTo8BitDac(LambdaToVoltage(100));
 	Out.Heater = 0;
 	Out.Led2 = LOW;
@@ -233,7 +232,7 @@ void Preset(void)
 	
 }
 
-/* This function reads the cj125 after startup.
+/* This function reads out the cj125 after startup.
  * CJ125 answer must be okay several times to go further
  */
 void Start(void)
@@ -258,7 +257,7 @@ void Start(void)
 }	
 
 /* This function turns the CJ125 into calibration mode.
- * Then it sampels the UA, UR values several times and build
+ * Then it samples the UA, UR values several times and build
  * the average
  */
 void Calibrate(void)
@@ -333,7 +332,7 @@ void Idle(void)
 		ledtick = Abl.Tick;
 	}
 	
-	/* Check if we can go to heater condensation (Enable pin low) */
+	/* Check if we can go to heater condensation mode (Enable pin low) */
 	if (In.EN == LOW)
 	{
 		Abl.Mode = CONDENSATE;
@@ -398,7 +397,7 @@ void Preheat(void)
 		Abl.LastHeatTick = Abl.Tick;
 		Abl.StartHeatTick = Abl.Tick;
 		
-		/* Calculate the starting pulse with value 
+		/* 	Calculate the starting pulse with value 
 		 *	255 is max pwm value, so 255 == Supply voltage
 		 *	We start preheating at 8 Volt.
 		 *	start = 8 * 255 / Supply
@@ -419,7 +418,7 @@ void Preheat(void)
 		Out.Heater = start;
 	}	
 	
-	/* one step every second*/
+	/* one step every second */
 	if ((Abl.Tick - Abl.LastHeatTick) >= PROBE_PREHEAT_PERIOD)
 	{
 		/* Toggle heater LED */
@@ -545,7 +544,6 @@ void Error(void)
 	/* Reset values */
 	Abl.Lambda = 100;
 	Out.Dac1 = VoltageTo12BitDac(LambdaToVoltage(100));
-	Out.Dac2 = Out.Dac1;
 	Out.Wbl = VoltageTo8BitDac(LambdaToVoltage(100));
 	Out.Heater = 0;
 	
