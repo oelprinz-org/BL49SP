@@ -55,7 +55,6 @@ void Outputs(tOutputs* Out)
 
 	/* Dac */
 	ComDac(DAC1_ADDR, Out->Dac1);
-/*	ComDac(DAC2_ADDR, Out->Dac2); */
 	
 }
 
@@ -74,7 +73,7 @@ uint16_t ComCj(uint16_t data)
 	return ret;
 }
 
-/* Send DAC values to MCP4726 */
+/* Send DAC values to MCP4725 */
 void ComDac(uint8_t addr, uint16_t data)
 {
 	Wire.beginTransmission(addr);		// Start transmission
@@ -84,7 +83,7 @@ void ComDac(uint8_t addr, uint16_t data)
 	Wire.endTransmission();			// End transmission
 }	
 
-/* Check if supply voltage is in allowed range */
+/* Check if supply voltage is within allowed range */
 uint8_t CheckUBatt(void)
 {
 	uint8_t ret;
