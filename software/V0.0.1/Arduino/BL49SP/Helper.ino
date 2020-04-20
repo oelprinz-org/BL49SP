@@ -35,8 +35,8 @@ void Inputs(tInputs* In)
 	
 	/* Digital */
 	In->EN = digitalRead(EN_INPUT_PIN);
-	In->S1 = digitalRead(SP1_INPUT_PIN);
-	In->S2 = digitalRead(SP2_INPUT_PIN);		
+//	In->S1 = digitalRead(SP1_INPUT_PIN);
+//	In->S2 = digitalRead(SP2_INPUT_PIN);		
 }
 
 /* Set outputs */
