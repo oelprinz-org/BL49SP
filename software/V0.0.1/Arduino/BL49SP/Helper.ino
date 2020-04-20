@@ -52,7 +52,6 @@ void Outputs(tOutputs* Out)
 
 	/* Dac */
 	ComDac(DAC1_ADDR, Out->Dac1);
-	ComDac(DAC2_ADDR, Out->Dac2);
 	
 }
 
