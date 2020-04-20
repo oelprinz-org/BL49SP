@@ -91,7 +91,7 @@
 #define CJ125_INIT_REG1_STATUS_1        0x2889	/* The response of the init register when V=17 amplification is in use. */
 
 /* Define DAC MCP4725 address MCP4725A2T-E/CH */
-#define DAC1_ADDR			0x64	/* Address for DAC 1 chip A0 tied to GND */
+#define DAC1_ADDR			0x60	/* Address for DAC 1 chip A0 tied to GND */
 
 /* Define DAC MCP4725 registers */
 #define MCP4725_CMD_WRITEDAC		0x40	/* Writes data to the DAC */
