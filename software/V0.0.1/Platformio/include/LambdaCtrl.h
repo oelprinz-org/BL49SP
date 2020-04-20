@@ -210,7 +210,7 @@ const static char ModeName[][15] =
 	{ "START" },
 	{ "CALIBRATION" },
 	{ "IDLE" },
-	{ "CONDENSATE" },
+	{ "CONDENSATION" },
 	{ "PREHEAT" },
 	{ "PID" },
 	{ "RUNNING" },
