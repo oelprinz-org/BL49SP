@@ -92,7 +92,6 @@
 
 /* Define DAC MCP4725 address MCP4725A2T-E/CH */
 #define DAC1_ADDR			0x64	/* Address for DAC 1 chip A0 tied to GND */
-/* #define DAC2_ADDR			0x65     Address for DAC 2 chip A0 tied to +5V */
 
 /* Define DAC MCP4725 registers */
 #define MCP4725_CMD_WRITEDAC		0x40	/* Writes data to the DAC */
