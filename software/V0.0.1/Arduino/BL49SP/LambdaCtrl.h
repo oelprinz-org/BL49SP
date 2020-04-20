@@ -28,6 +28,8 @@
 #define UA_ANALOG_INPUT_PIN              	A7  	/* Analog input for lambda.*/
 #define LAMBDA_PWM_OUTPUT_PIN            	3   	/* spare analog output (narrow band simulation or AFR Gauge 0-1V/0-5V) */
 #define EN_INPUT_PIN                     	16  	/* Enable pin, low when engine running */
+//#define SP1_INPUT_PIN             	        2   	/* Spare input 1 */
+//#define SP2_INPUT_PIN               	 	4   	/* Spare input 2 */
 
 /* Define parameters */
 #define START_CONF_CNT				10	// Startup confident count, Min < UBatterie < Max, CJ Status ok
