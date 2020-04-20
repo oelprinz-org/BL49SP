@@ -44,8 +44,8 @@ void setup()
 	pinMode(HEATER_OUTPUT_PIN, OUTPUT);
 	pinMode(LAMBDA_PWM_OUTPUT_PIN, OUTPUT);
 	pinMode(EN_INPUT_PIN, INPUT);
-	pinMode(SP1_INPUT_PIN, INPUT_PULLUP);
-	pinMode(SP2_INPUT_PIN, INPUT_PULLUP);
+//	pinMode(SP1_INPUT_PIN, INPUT_PULLUP);
+//	pinMode(SP2_INPUT_PIN, INPUT_PULLUP);
 	
 	/* Change PWM frequency for heater pin to 122Hz */
 	TCCR1B = 1 << CS12;
