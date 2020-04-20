@@ -80,7 +80,7 @@ void ComDac(uint8_t addr, uint16_t data)
 	Wire.endTransmission();			// End transmission
 }	
 
-/* Check if supply voltage is in allowed range */
+/* Check if supply voltage is within allowed range */
 uint8_t CheckUBatt(void)
 {
 	uint8_t ret;
