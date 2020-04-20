@@ -69,7 +69,7 @@
 
 #define PROBE_PID_PERIOD		    	10	// xx milliseconds
 
-#define DEBUG											1			// Define debug mode 0 = off, 1 = Minimum, 2= all
+#define DEBUG					1	// Define debug mode 0 = off, 1 = Minimum, 2= all
 
 /* Define CJ125 registers */
 #define CJ125_IDENT_REG_REQUEST             	0x4800	/* Identify request, gives revision of the chip. */
@@ -202,7 +202,7 @@ const static char ModeName[][15] =
 	{ "START" },
 	{ "CALIBRATION" },
 	{ "IDLE" },
-	{ "CONDENSATE" },
+	{ "CONDENSATION" },
 	{ "PREHEAT" },
 	{ "PID" },
 	{ "RUNNING" },
