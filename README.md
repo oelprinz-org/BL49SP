@@ -8,6 +8,8 @@ Version 0.0.1 - basic functions implemented: 0,5V - 4,5V equals AFR10-20<br/>
 
 Interactive BOM for easier hand-soldering is here: https://oelprinz.000webhostapp.com/BL49SP/V0.0.0.1/iBOM/ibom.html
 
+Quick link to schematic: https://github.com/oelprinz-org/BL49SP/blob/master/hardware/V0.0.1/schematics.pdf
+
 <img src="hardware/V0.0.1/V0.0.1_assembled.jpeg" title="Assembled Prototype">
 
 <p align="center">
