@@ -1,0 +1,24 @@
+{
+    "Header": {
+        "Comment": "All values are metric (mm)",
+        "CreationDate": "2020-05-06T11:51:29Z",
+        "GenerationSoftware": {
+            "Application": "EAGLE",
+            "Vendor": "Autodesk",
+            "Version": "9.6.1"
+        },
+        "Part": "Single"
+    },
+    "Overall": {
+        "BoardThickness": 0.27,
+        "LayerNumber": 2,
+        "Name": {
+            "ProjectId": "bl49sp"
+        },
+        "Owner": "Zipfel Wurst <hurz@squizzy.net>",
+        "Size": {
+            "X": 24.765,
+            "Y": 68.2625
+        }
+    }
+}
