@@ -6,7 +6,7 @@ Usable as a stand-alone controller or as a add-in for your own design. 2-layer p
 
 Version 0.0.1 - basic functions implemented: 0,5V - 4,5V equals AFR10-20<br/>
 
-Version 0.0.2 - modifications for automated production process done - WiP<br/>
+Version 0.0.2 - modifications for automated production process done - waiting for PCBs<br/>
 
 Interactive BOM for easier hand-soldering you can download from the github (BL49SP/hardware/V0.0.2/bom)
 or access online here: https://oelprinz.000webhostapp.com/BL49SP/V0.0.2/iBOM/ibom.html <br/>
