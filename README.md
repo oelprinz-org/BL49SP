@@ -20,4 +20,6 @@ Quick link to schematic: https://github.com/oelprinz-org/BL49SP/blob/master/hard
   <img src="hardware/V0.0.2/bottom.png" alt="accessibility text"><br/>
     <img src="hardware/V0.0.2/top_layer.png" title="Top Side">
   <img src="hardware/V0.0.2/bottom_layer.png" alt="accessibility text">
+  <img src="hardware/V0.0.2/assembly_V0.0.2.png" alt="assembly">
+  
 </p>
