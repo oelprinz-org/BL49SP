@@ -13,7 +13,7 @@ or access online here: https://oelprinz.000webhostapp.com/BL49SP/V0.0.2/iBOM/ibo
 
 Quick link to schematic: https://github.com/oelprinz-org/BL49SP/blob/master/hardware/V0.0.2/schematics.pdf <br/>
 
-<img src="hardware/V0.0.1/V0.0.1_assembled.jpeg" title="Assembled Prototype">
+<img src="hardware/V0.0.2/BL49SP_V0.0.2_assembled.jpeg" title="Assembled Prototype">
 
 <p align="center">
   <img src="hardware/V0.0.2/top.png" title="Top Side">
