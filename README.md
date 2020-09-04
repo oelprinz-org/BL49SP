@@ -8,12 +8,12 @@ Version 0.0.1 - basic functions implemented: 0,5V - 4,5V equals AFR10-20<br/>
 
 Version 0.0.2 - modifications for automated production process done - PCBs arrived - further tests needed<br/>
 
-Update 04.09.2020 - Version 0.0.2: First tests have shown the lambda controller in an working state.<br/>
-In IDLE oder PREHEATING mode Uout is 2,48V (Lambda 1,00).<br/>
-In RUNNING mode we have a Uout of 4,56V at AFR20 and a Uout of 0,54V at AFR10.<br/>
+Update 04.09.2020 - Version 0.0.2: First tests have shown the finished lambda controller in an working state.<br/>
+In idle mode Uout is 2,39V (Lambda 1,00).<br/>
+In running mode we have a Uout of 4,56V at AFR20 and a Uout of 0,54V at AFR10.<br/>
 All measurements have been done with a uncalibrated Multimeter and must be verified with a calibrated device.<br/>
 Possibly there is some room for more finetuning or improvements, but until here all looks fine so far. <br/>
-Current draw is only some milliAmps in IDLE mode, something around 1,5 A while PREHEATING and 0,7 A in RUNNING mode.<br/>
+Current draw is only some milliAmps in idle mode, something around 1,7 A while heating and 0,7 A in running mode.<br/>
 
 Precompiled firmware files and fuse settings you can find at https://github.com/oelprinz-org/BL49SP/tree/master/software/V0.0.2/Arduino/BL49SP/Build<br/>
 
