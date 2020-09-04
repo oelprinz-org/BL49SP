@@ -157,7 +157,7 @@ void loop()
 		Serial.print("UA:");
 		Serial.println(In.UA);
 		Serial.print("IP:");
-		Serial.println(Cj.Ip);	
+		Serial.println(Cj.IP);	
 #endif
 #if (DEBUG > 0)
 		Serial.print("Mode:");
