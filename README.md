@@ -15,6 +15,8 @@ All measurements have been done with a uncalibrated Multimeter and must be verif
 Possibly there is some room for more finetuning or improvements, but until here all looks fine so far. <br/>
 Current draw is only some milliAmps in idle mode, something around 1,7 A while heating and 0,7 A in running mode.<br/>
 
+Update 17.09.2020 - Added some illustrations to the wiki how to connect the board: https://github.com/oelprinz-org/BL49SP/wiki/Connectors
+
 Precompiled firmware files and fuse settings you can find at https://github.com/oelprinz-org/BL49SP/tree/master/software/V0.0.2/Arduino/BL49SP/Build<br/>
 
 Interactive BOM for easier hand-soldering you can download from the github (BL49SP/hardware/V0.0.2/bom)
