@@ -17,7 +17,7 @@ Current draw is only some milliAmps in idle mode, something around 1,7 A while h
 
 Update 17.09.2020 - Added some illustrations to the wiki how to connect the board: https://github.com/oelprinz-org/BL49SP/wiki/Connecting-the-board-V0.0.2
 
-Update 12.11.2020 - Added fabrication files for Jlcpcb: https://github.com/oelprinz-org/BL49SP/tree/master/fabrication/V0.0.2
+Update 12.11.2020 - Added fabrication files for Jlcpcb: https://github.com/oelprinz-org/BL49SP/tree/master/fabrication/V0.0.2a
 
 Precompiled firmware files and fuse settings you can find at https://github.com/oelprinz-org/BL49SP/tree/master/software/V0.0.2/Arduino/BL49SP/Build<br/>
 
