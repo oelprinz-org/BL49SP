@@ -8,6 +8,8 @@ Version 0.0.1 - basic functions implemented: 0,5V - 4,5V equals AFR10-20<br/>
 
 Version 0.0.2 - modifications for automated production process done - PCBs arrived - further tests needed<br/>
 
+Version 0.0.2a - minor corrections on bottom silkscreen<br/>
+
 Update 04.09.2020 - Version 0.0.2: First tests have shown the finished lambda controller in an working state.<br/>
 In idle mode Uout is 2,39V (Lambda 1,00).<br/>
 In running mode we have a Uout of 4,56V at AFR20 and a Uout of 0,54V at AFR10.<br/>
