@@ -1,0 +1,7 @@
+Needed Connectors and Pins are Molex Mini-Fit Jr 5569:
+
+1x Pin Header 2x4P: 3930-1080
+1x Pin Header 2x3P: 3930-1060
+1x Contact housing female 2x4P: 3901-2085
+1x Contact housing female 2x3P: 3901-2065
+14x Crimp socket Female: 3900-0039
