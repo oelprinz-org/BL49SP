@@ -56,7 +56,7 @@
 #define USUP_MIN_OK				11000	// Min allowed supply voltage value
 #define USUP_MAX_OK				16500	// Max allowed supply voltage value
 
-#define USUP_ERR_CNT				2	//	Allowed error count, switch to preset if supply out of range for this count
+#define USUP_ERR_CNT				3	// Allowed error count, switch to preset if supply out of range for this count
 
 #define PROBE_CONDENSATE_PERIOD		    	6000	// xx milliseconds 
 #define PROBE_CONDENSATE_VOLT		    	1500	// xx millivolt during condensate heat
