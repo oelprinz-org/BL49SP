@@ -19,7 +19,7 @@ All measurements have been done with a uncalibrated Multimeter and must be verif
 Possibly there is some room for more finetuning or improvements, but until here all looks fine so far. <br/>
 Current draw is only some milliAmps in idle mode, something around 1,7 A while heating and 0,7 A in running mode.<br/>
 
-Update 17.09.2020 - Added some illustrations to the wiki how to connect the board: https://github.com/oelprinz-org/BL49SP/wiki/Connecting-the-board-V0.0.2
+Update 17.09.2020 - Added some illustrations to the wiki how to connect the V0.0.2 board: https://github.com/oelprinz-org/BL49SP/wiki/Connecting-the-board-V0.0.2
 
 V0.0.3 fabrication files for Jlcpcb: https://github.com/oelprinz-org/BL49SP/tree/master/fabrication/V0.0.3
 
