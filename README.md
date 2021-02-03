@@ -1,4 +1,4 @@
-# BL49SP
+# BL49SP  -  V0.0.3
 Wideband Lambda Controller with Bosch CJ125 and LSU 4.9<br/>
 Usable as a stand-alone controller or as a add-in for your own design. 2-layer pcb - single side soldered<br/>
 
