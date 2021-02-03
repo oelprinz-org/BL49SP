@@ -1,4 +1,4 @@
-# BL49SP V0.0.2
+# BL49SP - V0.0.2
 Precompiled firmware files and fuse settings you can find at https://github.com/oelprinz-org/BL49SP/tree/master/software/V0.0.2/Arduino/BL49SP/Build<br/>
 
 Interactive BOM for easier hand-soldering you can download from the github (BL49SP/hardware/V0.0.2/bom)
