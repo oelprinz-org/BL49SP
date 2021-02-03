@@ -10,7 +10,7 @@ Version 0.0.2 - modifications for automated production process done - PCBs arriv
 
 Version 0.0.2a - minor corrections on bottom silkscreen<br/>
 
-Version 0.0.3 - minor corrections / Connector for OLED-Display<br/>
+Version 0.0.3 - minor corrections / pins added to connect OLED-Display<br/>
 
 Update 04.09.2020 - Version 0.0.2: First tests have shown the finished lambda controller in an working state.<br/>
 In idle mode Uout is 2,39V (Lambda 1,00).<br/>
