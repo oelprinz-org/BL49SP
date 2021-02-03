@@ -10,6 +10,8 @@ Version 0.0.2 - modifications for automated production process done - PCBs arriv
 
 Version 0.0.2a - minor corrections on bottom silkscreen<br/>
 
+Version 0.0.3 - minor corrections / Connector for OLED-Display<br/>
+
 Update 04.09.2020 - Version 0.0.2: First tests have shown the finished lambda controller in an working state.<br/>
 In idle mode Uout is 2,39V (Lambda 1,00).<br/>
 In running mode we have a Uout of 4,56V at AFR20 and a Uout of 0,54V at AFR10.<br/>
@@ -19,22 +21,22 @@ Current draw is only some milliAmps in idle mode, something around 1,7 A while h
 
 Update 17.09.2020 - Added some illustrations to the wiki how to connect the board: https://github.com/oelprinz-org/BL49SP/wiki/Connecting-the-board-V0.0.2
 
-Update 12.11.2020 - Added fabrication files for Jlcpcb: https://github.com/oelprinz-org/BL49SP/tree/master/fabrication/V0.0.2a
+V0.0.3 fabrication files for Jlcpcb: https://github.com/oelprinz-org/BL49SP/tree/master/fabrication/V0.0.3
 
-Precompiled firmware files and fuse settings you can find at https://github.com/oelprinz-org/BL49SP/tree/master/software/V0.0.2/Arduino/BL49SP/Build<br/>
+not yet - Precompiled firmware files and fuse settings you can find at https://github.com/oelprinz-org/BL49SP/tree/master/software/V0.0.3/Arduino/BL49SP/Build<br/>
 
-Interactive BOM for easier hand-soldering you can download from the github (BL49SP/hardware/V0.0.2/bom)
-or access online here: https://oelprinz.000webhostapp.com/BL49SP/V0.0.2/iBOM/ibom.html <br/>
+Interactive BOM for easier hand-soldering you can download from the github (BL49SP/hardware/V0.0.3/bom)
+or access online here: https://oelprinz.000webhostapp.com/BL49SP/V0.0.3/iBOM/ibom.html <br/>
 
-Quick link to schematic: https://github.com/oelprinz-org/BL49SP/blob/master/hardware/V0.0.2/schematics.pdf <br/>
+Quick link to schematic: https://github.com/oelprinz-org/BL49SP/blob/master/hardware/V0.0.3/schematics.pdf <br/>
 
 <img src="hardware/V0.0.2/BL49SP_V0.0.2_assembled.jpeg" title="Assembled Prototype">
 
 <p align="center">
-  <img src="hardware/V0.0.2/top.png" title="Top Side">
-  <img src="hardware/V0.0.2a/bottom.png" alt="accessibility text"><br/>
-    <img src="hardware/V0.0.2/top_layer.png" title="Top Side">
-  <img src="hardware/V0.0.2/bottom_layer.png" alt="accessibility text">
-  <img src="hardware/V0.0.2/assembly_V0.0.2.png" alt="assembly">
+  <img src="hardware/V0.0.3/top.png" title="Top Side">
+  <img src="hardware/V0.0.3/bottom.png" alt="Bottom Side"><br/>
+    <img src="hardware/V0.0.3/top_layer.png" title="Top Layer">
+  <img src="hardware/V0.0.3/bottom_layer.png" alt="Bottom Layer">
+  <img src="hardware/V0.0.3/assembly_V0.03.png" alt="Assembly">
   
 </p>
