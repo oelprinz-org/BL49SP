@@ -33,10 +33,10 @@ Quick link to schematic: https://github.com/oelprinz-org/BL49SP/blob/master/hard
 <img src="hardware/V0.0.2/BL49SP_V0.0.2_assembled.jpeg" title="Assembled Prototype">
 
 <p align="center">
-  <img src="hardware/V0.0.3/top.png" title="Top Side">
-  <img src="hardware/V0.0.3/bottom.png" alt="Bottom Side"><br/>
-    <img src="hardware/V0.0.3/top_layer.png" title="Top Layer">
-  <img src="hardware/V0.0.3/bottom_layer.png" alt="Bottom Layer">
-  <img src="hardware/V0.0.3/assembly_V0.03.png" alt="Assembly">
+  <img src="hardware/V0.0.3/top.png" width="350" title="Top Side">
+  <img src="hardware/V0.0.3/bottom.png" width="350" alt="Bottom Side"><br/>
+    <img src="hardware/V0.0.3/top_layer.png" width="350" title="Top Layer">
+  <img src="hardware/V0.0.3/bottom_layer.png" width="350" alt="Bottom Layer">
+  <img src="hardware/V0.0.3/assembly_V0.03.png" width="350" alt="Assembly">
   
 </p>
