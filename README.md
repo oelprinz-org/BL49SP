@@ -26,7 +26,7 @@ V0.0.3 fabrication files for Jlcpcb: https://github.com/oelprinz-org/BL49SP/tree
 not yet - Precompiled firmware files and fuse settings you can find at https://github.com/oelprinz-org/BL49SP/tree/master/software/V0.0.3/Arduino/BL49SP/Build<br/>
 
 Interactive BOM for easier hand-soldering you can download from the github (BL49SP/hardware/V0.0.3/bom)
-or access online here: https://oelprinz.000webhostapp.com/BL49SP/V0.0.3/iBOM/ibom.html <br/>
+or access online here: http://oelprinz.org/products/BL49SP/hardware/V0.0.3/iBOM/ibom.html <br/>
 
 Quick link to schematic: https://github.com/oelprinz-org/BL49SP/blob/master/hardware/V0.0.3/schematics.pdf <br/>
 
