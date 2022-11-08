@@ -164,7 +164,7 @@ void loop()
 		Serial.println(ModeName[Abl.Mode]);	
 		Serial.print("Supply:");
 		Serial.println(Abl.SupplyVoltage / 1000.0);	
-		if ((Abl.CjState & CJ125_DIAG_REG_STATUS_OK) == CJ125_DIAG_REG_STATUS_OK)
+		if (Abl.CjState != cjERROR)
 		{
 			Serial.print("Lambda:");
 			Serial.println(Abl.Lambda / 100.0);					
