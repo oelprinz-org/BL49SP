@@ -182,7 +182,7 @@ void loop()
 			Serial.print(F("Supply:"));
 			Serial.println(Abl.SupplyVoltage / 1000.0);	
 
-			if (Abl.CjState == cjNORMALV8 || Abl.CjState == cjNORMALV17)
+			if (Abl.CjState != cjERROR)
 			{
 				Serial.print(F("Lambda:"));
 				Serial.println(Abl.Lambda / 100.0);					

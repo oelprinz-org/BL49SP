@@ -430,9 +430,12 @@ void Preheat(void)
 		}
 		else
 		{
-			Out.Heater += step;
+			uint16_t tHeater = Out.Heater;
+			tHeater += step;
+			
 			/* Limit heater voltage to end pulse width */
-			if (Out.Heater > end) Out.Heater = end;
+			if (tHeater > end) tHeater = end;		
+			Out.Heater = tHeater;			
 		}		
 		/* Save tick count */
 		Abl.LastHeatTick = Abl.Tick;
