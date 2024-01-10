@@ -46,8 +46,8 @@ Bosch numbers beginning with **0 258 007** are *LSU 4.2* probes and will not fit
 |Bosch number  |Length overall|Comment|
 |--------------|--------------|-------|
 |0 258 017 012 |1060mm||
-|0 258 017 025 |1000mm|Bosch motorsport part, **tested during development**|
-|0 281 004 028 |540mm|common probe for diesel engines, **Used during development**|
+|0 258 017 025 |1000mm|Bosch motorsport part|
+|0 281 004 028 |540mm|common probe for diesel engines|
 |0 258 017 029 |620mm|grey, used by BMW after 09/2006 (1178 7539124)|
 |0 258 017 038 |340mm|grey, used by BMW (11787537984)|
 |0 258 017 092 |950mm|black, used by BMW (1178 7540167)|
