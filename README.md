@@ -65,7 +65,7 @@ Bosch numbers beginning with **0 258 007** are *LSU 4.2* probes and will not fit
 |3|white|Heater voltage H-|Uh-|
 |4|grey|Heater voltaget H+|Uh+|
 |5|green|Trim Resistor RT|IA|
-|6|black|Nernst voltage UN|RE|
+|6|black|Nernst voltage UN|RE| <br/>
 
 
 <p align="center">
