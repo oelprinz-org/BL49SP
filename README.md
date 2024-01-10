@@ -30,7 +30,7 @@ or access online here: http://oelprinz.org/products/BL49SP/hardware/V0.0.3/iBOM/
 
 Quick link to schematic: https://github.com/oelprinz-org/BL49SP/blob/master/hardware/V0.0.3/schematics.pdf <br/>
 
-## Bosch CJ125 (LQFP32 package) part numbers
+### Bosch CJ125 (LQFP32 package) part numbers
 
 |Bosch part number|
 |:----------------|
