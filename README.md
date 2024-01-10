@@ -30,6 +30,43 @@ or access online here: http://oelprinz.org/products/BL49SP/hardware/V0.0.3/iBOM/
 
 Quick link to schematic: https://github.com/oelprinz-org/BL49SP/blob/master/hardware/V0.0.3/schematics.pdf <br/>
 
+## Bosch CJ125 (LQFP32 package) part numbers
+
+|Bosch part number|
+|:----------------|
+|30615|
+|40103|
+|30522|
+
+### Suitable Bosch lambda probes
+
+Basically, the Bosch probes whose numbers start with **0 258 017** will fit, also Bosch **0 281 004**.  
+Bosch numbers beginning with **0 258 007** are *LSU 4.2* probes and will not fit.
+
+|Bosch number  |Length overall|Comment|
+|--------------|--------------|-------|
+|0 258 017 012 |1060mm||
+|0 258 017 025 |1000mm|Bosch motorsport part, **tested during development**|
+|0 281 004 028 |540mm|common probe for diesel engines, **Used during development**|
+|0 258 017 029 |620mm|grey, used by BMW after 09/2006 (1178 7539124)|
+|0 258 017 038 |340mm|grey, used by BMW (11787537984)|
+|0 258 017 092 |950mm|black, used by BMW (1178 7540167)|
+|0 258 017 126 |680mm|black, used by BMW after 09/2006 (1178 7561410)|
+|0 281 004 150 |1215mm||
+|0 281 004 184 |1000mm||
+|...|||
+
+### LSU4.9 probe pinout
+
+|Pin#|Color|Description|Symbol|
+|----|-----|--------|-----------|
+|1|red|Pump current APE|IP|
+|2|yellow|Virtual ground IPN|VM|
+|3|white|Heater voltage H-|Uh-|
+|4|grey|Heater voltaget H+|Uh+|
+|5|green|Trim Resistor RT|IA|
+|6|black|Nernst voltage UN|RE|
+
 
 <p align="center">
   <img src="hardware/V0.0.3/top.png" width="350" title="Top Side">
